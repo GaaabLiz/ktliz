@@ -1,6 +1,6 @@
 @file:Suppress("MemberVisibilityCanBePrivate")
 
-package io.github.gaaabliz.ktliz.android.base
+package io.github.gaaabliz.ktliz.android.util
 
 import timber.log.Timber
 import android.os.Build

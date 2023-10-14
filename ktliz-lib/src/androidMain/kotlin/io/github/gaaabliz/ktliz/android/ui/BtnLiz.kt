@@ -1,6 +1,6 @@
 @file:Suppress("DuplicatedCode")
 
-package io.github.gaaabliz.ktliz.android.base
+package io.github.gaaabliz.ktliz.android.ui
 
 
 import androidx.compose.foundation.layout.*
