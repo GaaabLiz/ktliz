@@ -1,3 +1,4 @@
+
 buildscript {
 
     extra.apply{
@@ -21,9 +22,16 @@ buildscript {
         classpath(Deps.GradlePlugins.kotlin)
         classpath(Deps.GradlePlugins.agp)
         classpath(Deps.GradlePlugins.compose)
+        classpath("io.github.gradle-nexus:publish-plugin:1.3.0")
     }
 
 }
+
+plugins {
+    id("io.github.gradle-nexus.publish-plugin") version "1.3.0"
+}
+
+apply(file("${rootDir}\\scripts\\publish-root.gradle"))
 
 allprojects {
     repositories {

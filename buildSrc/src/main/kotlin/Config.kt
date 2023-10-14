@@ -12,7 +12,7 @@ object Config {
         const val groupId = "io.github.gaaabliz"
         const val name = "ktliz"
         val nameLowercase = name.lowercase(Locale.ROOT)
-        const val version = "0.0.1"
+        const val version = "0.0.2"
         val javaVersion = JavaVersion.VERSION_17
         const val jvmTarget = "17"
         const val description = "kmm lib"
